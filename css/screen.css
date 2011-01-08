@@ -75,7 +75,7 @@ table#images td#joe-pic { width: 40%;}
 table#images td#logo { width: 60%; vertical-align: top;}
 
 /* Meyer's reset ends here */
-body {
+html, body {
   background-color: #557790;
   font-family: Georgia, serif;
 }
