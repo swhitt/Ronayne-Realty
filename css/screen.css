@@ -69,7 +69,10 @@ table {
 	width: 100%;
 }
 
-table#images td { width: 50%;}
+table#images td#joe-pic { width: 40%;}
+#joe-pic img { margin-top: 40px;}
+
+table#images td#logo { width: 60%; vertical-align: top;}
 
 /* Meyer's reset ends here */
 body {
@@ -96,4 +99,16 @@ section#main footer {
   padding-top: 5px;
   background-color: #eee;
   font-style: italic;
+}
+nav ul {
+list-style-type: none;
+width: 600px;
+height: 20px;
+margin: auto;
+padding-top: 30px;
+}
+nav li {
+  float: left;
+  width: 25%;
+  font-size: 18px;
 }
