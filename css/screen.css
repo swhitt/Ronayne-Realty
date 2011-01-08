@@ -97,7 +97,7 @@ section#main {
 
 section#main footer {
   border-top: 1px solid #ccc;
-  margin-top: 15px;
+  margin-top: 0px;
   padding-top: 5px;
   background-color: #eee;
   font-style: italic;
@@ -134,4 +134,8 @@ a:hover {
 p { 
   padding: 3px 15px;
   line-height: 1.2;
+}
+
+#facebook {
+  padding: 5px 15px;
 }
