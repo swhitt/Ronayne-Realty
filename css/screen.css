@@ -95,6 +95,14 @@ section#main {
   margin-top: 40px;
 }
 
+section#main > header, section#main > nav, section#main > p, section#main > div {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+section#main > header {
+  border-top: 1px solid #ccc;
+}
+
 section#main footer {
   border-top: 1px solid #ccc;
   margin-top: 0px;
@@ -139,3 +147,4 @@ p {
 #facebook {
   padding: 5px 15px;
 }
+body .ui-widget { font-size: 12px; }
