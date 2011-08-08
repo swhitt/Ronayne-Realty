@@ -4,7 +4,7 @@
 $(function () {
   
   $('nav li a').click(function(){
-    jAlert('Coming soon!');
+    // jAlert('Coming soon!');
   });
   
 });
